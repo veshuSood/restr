@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">रेस्टोरेंट ऐप</string>
+    <string name="home_title">स्वागत है</string>
+    <string name="go_to_cart">कार्ट पर जाएं</string>
+    <string name="top_dishes">शीर्ष 3 लोकप्रिय व्यंजन</string>
+    <string name="place_order">ऑर्डर दें</string>
+</resources>

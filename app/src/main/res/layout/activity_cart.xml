@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- Inner layout inside ScrollView must be only ONE direct child -->
+
+    <LinearLayout
+        android:id="@+id/llCartItems"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvTotalAmount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total: ₹0"
+            android:textStyle="bold"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tvTaxes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CGST (2.5%): ₹0\nSGST (2.5%): ₹0"
+            android:textSize="16sp"
+            android:paddingTop="4dp"/>
+
+        <TextView
+            android:id="@+id/tvGrandTotal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Grand Total: ₹0"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingTop="8dp"/>
+
+        <Button
+            android:id="@+id/btnPlaceOrder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Place Order"
+            android:layout_marginTop="16dp"/>
+    </LinearLayout>
+
+
+</ScrollView>

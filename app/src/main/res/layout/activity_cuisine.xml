@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Optional: Title -->
+    <TextView
+        android:id="@+id/tvCuisineTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cuisine Name"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:padding="16dp" />
+
+    <!-- List of dishes -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvDishes"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="8dp"/>
+</LinearLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">restr</string>
+    <string name="home_title">Welcome</string>
+    <string name="go_to_cart">Go to Cart</string>
+    <string name="top_dishes">Top 3 Famous Dishes</string>
+    <string name="place_order">Place Order</string>
+</resources>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Horizontal Cuisine List -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvCuisines"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"/>
+    <!-- Add this inside your LinearLayout after rvCuisines -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/home_title"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvTopDishes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"/>
+
+
+    <!-- Top 3 Dishes -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvTopDishes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="DuplicateIds" />
+
+    <!-- Cart Button -->
+    <Button
+        android:id="@+id/btnCart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/go_to_cart"/>
+
+    <!-- Language Toggle -->
+    <ToggleButton
+        android:id="@+id/toggleLanguage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOff="English"
+        android:textOn="हिंदी" />
+
+</LinearLayout>
